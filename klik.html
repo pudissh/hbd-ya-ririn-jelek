@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>klik aja rin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e4ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 100px; /* Tambahkan padding bawah */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #9247a6;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #6b4e71;
+            margin-bottom: 20px;
+        }
+
+        .cat-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .taro-button {
+            font-size: 1em;
+            color: white;
+            background-color: #a462ea;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .taro-button:hover {
+            background-color: #8a37d1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>wish buat sosok asli wanita nolep</h1>
+    <p>"happy birthday yaaa ririn, makin sehat makin rajin sholatnya semoga bisa punya iman yang konsisten supaya tercapai cita cita nya buat berlayar di pesiar. makasih udah lahir dan tetap bertahan di dunia ini yang terkadang ga sesuai ekspektasi kita, jangan sedih kalo kenyataan ga sesuai mau mu 'kita boleh punya mimpi tapi jangan lupa kalo Allah punya takdir' percaya aja kalo skenario Allah udah yang paling terbaik, semoga lama di dunia yaaa yiyin nolep🤩"</p>
+    <button class="taro-button" onclick="showCatImage()">coba klik lagi rin</button>
+    <img id="catImage" class="cat-image" src="2 orang lucu.jpeg" alt="Gambar Kucing" style="display: none;">
+</div>
+
+<script>
+    function showCatImage() {
+        document.getElementById("catImage").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
